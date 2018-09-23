@@ -1,5 +1,26 @@
-.header {
-    background: rgb(124, 124, 145);
-    margin: $s-size;
-    padding: $s-size;
+.header-container {
+    background: rgb(124, 124, 145);   
+    margin: 0;
+    padding: 0;   
 }
+
+.header-title {
+    padding: 0;
+    margin: 0;
+    font-size: $xl-size;
+    font-weight: 800;
+    color: rgb(245, 245, 82);
+}
+
+.header-subtitle{
+    color: rgb(245, 245, 82);
+    font-size: $xl-size;
+}
+
+.subtitle:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+
