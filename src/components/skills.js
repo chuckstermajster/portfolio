@@ -19,17 +19,15 @@ class Skills extends React.Component {
     }
 
     render() {
-        const componentClasses = ['skills'];
-        if (this.state.visibility){
-            componentClasses.push('show');
-        }
+        
         return (
             <div>
                 <div className="skills-container">
                     <div className="skills-title"><h1>Skills</h1></div>
-                    <div onClick={this.handleToggleVisibility} className="skills-subtitle">{this.state.visibility ? 'Hide skills' : 'Show skills'}</div>             </div>
-               
-                {this.state.visibility && (<div className={componentClasses.join(' ')}>
+                    <div onClick={this.handleToggleVisibility} className="skills-subtitle">{this.state.visibility ? 'Hide skills' : 'Show skills'}</div>             
+                </div>
+
+                {this.state.visibility && (<div className="skills-list">
                     <ul>
                         <li>a</li>
                         <li>b</li>
