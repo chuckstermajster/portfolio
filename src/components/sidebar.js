@@ -4,7 +4,7 @@ class Sidebar extends React.Component {
     render() {
         return (
             <div className="sidebar">                
-                    <ul>
+                    <ul className="side-menu">
                         <li>Home</li>
                         <li>About</li>
                         <li>Portfolio</li>

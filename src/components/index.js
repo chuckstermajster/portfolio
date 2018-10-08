@@ -3,6 +3,8 @@ import Header from './header';
 import Sidebar from './sidebar';
 import Skills from './skills';
 import Content from './contents';
+import Footer from './footer';
+
 
 class App extends React.Component {
     render() {
@@ -13,8 +15,9 @@ class App extends React.Component {
                 </Header>
                 <div className="wrapper">
                     <Sidebar />
-                    <Content />
+                    <Content />                    
                 </div>
+                <Footer/>
             </div>
         )
     }
