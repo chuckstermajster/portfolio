@@ -4,6 +4,7 @@ import Sidebar from './sidebar';
 import Skills from './skills';
 import Content from './contents';
 import Footer from './footer';
+import Skill from './skill';
 
 
 class App extends React.Component {
@@ -11,7 +12,9 @@ class App extends React.Component {
         return (
             <div>
                 <Header>
-                    <Skills />
+                    <Skills>
+                        <Skill/>
+                    </Skills>
                 </Header>
                 <div className="wrapper">
                     <Sidebar />

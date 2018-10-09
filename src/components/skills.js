@@ -1,4 +1,5 @@
 import React from 'react'
+import Skill from './skill'
 
 
 class Skills extends React.Component {
@@ -17,25 +18,23 @@ class Skills extends React.Component {
             }
         });
     }
-
     render() {
-        
         return (
             <div>
                 <div className="skills-container">
                     <div className="skills-title"><h1>Skills</h1></div>
-                    <div onClick={this.handleToggleVisibility} className="skills-subtitle">{this.state.visibility ? 'Hide skills' : 'Show skills'}</div>             
+                    <div onClick={this.handleToggleVisibility} className="skills-subtitle">{this.state.visibility ? 'Hide skills' : 'Show skills'}</div>
                 </div>
-
-                {this.state.visibility && (<div className="skills-list">
-                    <ul>
-                        <li>a</li>
-                        <li>b</li>
-                        <li>c</li>
-                        <li>d</li>
-                        <li>e</li>
-                    </ul>
-                </div>)
+                {
+                    this.state.visibility && (<div className="skills-list">
+                        <ul>
+                            <li><Skill skillname="Superskill" /></li>
+                            <li><Skill skillname="Extraskill" /></li>
+                            <li><Skill skillname="Megaskill" /></li>
+                            <li><Skill skillname="Ultraskill" /></li>
+                            <li><Skill skillname="Uberskill" /></li>
+                        </ul>
+                    </div>)
                 }
             </div>)
     }
