@@ -1,5 +1,6 @@
 .header-container {
-    background: yellowgreen;         
+    background: $yellow;
+    flex: 0 0 100%;         
 }
 
 .header-title {
@@ -7,11 +8,11 @@
     margin: 0;
     font-size: $xl-size;
     font-weight: 800;
-    color: rgb(245, 245, 82);
+    color: $black;
 }
 
 .header-subtitle{
-    color: rgb(245, 245, 82);
+    color: $black;
     font-size: $xl-size;
 }
 

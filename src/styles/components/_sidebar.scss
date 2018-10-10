@@ -1,9 +1,9 @@
 
 .sidebar {          
-    background: royalblue;       
+    background: $light-violet;
+    flex: 1;       
 }
 
-.side-menu {
-    margin: 0;
-    padding: 0;
+.side-menu > li {
+    color: $yellow;
 }

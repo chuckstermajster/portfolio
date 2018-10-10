@@ -1,18 +1,17 @@
 .skills-subtitle {
-    color: blue;
+    color: white;
     cursor: pointer;
 }
 
 .skills-container {
-    background: salmon;
+    background: $blue;
     margin: 0;
     padding: 0;
 }
 
 .skills-list {
-    margin: 0;
-    padding: 0;
-    background: salmon;
+    
+    background: $black;
 }
 
 .skills-list > ul {

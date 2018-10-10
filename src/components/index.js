@@ -11,16 +11,16 @@ class App extends React.Component {
     render() {
         return (
             <div>
+                <div className="wrapper">
                 <Header>
                     <Skills>
                         <Skill/>
                     </Skills>
-                </Header>
-                <div className="wrapper">
+                </Header>                
                     <Sidebar />
-                    <Content />                    
-                </div>
+                    <Content />              
                 <Footer/>
+                </div>
             </div>
         )
     }

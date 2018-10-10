@@ -1,7 +1,4 @@
 .wrapper {
-    display: flex;  
-}
-
-.wrapper > * {
-    flex: 1 100%;
+    display: flex; 
+    flex-wrap: wrap; 
 }
