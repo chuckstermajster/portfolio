@@ -10,10 +10,13 @@
 }
 
 .skills-list {
-    
+    display: flex;
     background: $black;
 }
 
-.skills-list > ul {
-    margin: 0;
+.skill {
+    border: 1px solid white;
+    margin: 5px;
 }
+
+

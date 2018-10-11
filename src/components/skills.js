@@ -27,13 +27,12 @@ class Skills extends React.Component {
                 </div>
                 {
                     this.state.visibility && (<div className="skills-list">
-                        <ul>
-                            <li><Skill skillname="Superskill" /></li>
-                            <li><Skill skillname="Extraskill" /></li>
-                            <li><Skill skillname="Megaskill" /></li>
-                            <li><Skill skillname="Ultraskill" /></li>
-                            <li><Skill skillname="Uberskill" /></li>
-                        </ul>
+                       
+                            <Skill skillname="Superskill" />
+                            <Skill skillname="Extraskill" />
+                            <Skill skillname="Megaskill" />
+                            <Skill skillname="Ultraskill" />
+                            <Skill skillname="Uberskill" />                        
                     </div>)
                 }
             </div>)
