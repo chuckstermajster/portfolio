@@ -7,7 +7,7 @@ class Skills extends React.Component {
         super(props);
         this.handleToggleVisibility = this.handleToggleVisibility.bind(this);
         this.state = {
-            visibility: false
+            visibility: true
         }
     }
 
@@ -23,16 +23,16 @@ class Skills extends React.Component {
             <div>
                 <div className="skills-container">
                     <div className="skills-title"><h1>Skills</h1></div>
-                    <div onClick={this.handleToggleVisibility} className="skills-subtitle">{this.state.visibility ? 'Hide skills' : 'Show skills'}</div>
+                    <div onClick={this.handleToggleVisibility} className="skills-subtitle"><p>{this.state.visibility ? 'Hide skills' : 'Show skills'}</p></div>
                 </div>
                 {
                     this.state.visibility && (<div className="skills-list">
                        
-                            <Skill skillname="Superskill" />
-                            <Skill skillname="Extraskill" />
-                            <Skill skillname="Megaskill" />
-                            <Skill skillname="Ultraskill" />
-                            <Skill skillname="Uberskill" />                        
+                            <Skill skillname="HTML" skillvalue="60" />
+                            <Skill skillname="CSS" skillvalue="75" />
+                            <Skill skillname="Javsascript" skillvalue="30" />
+                            <Skill skillname="C#" skillvalue="30" />
+                            <Skill skillname="React" skillvalue="25" />                                                 
                     </div>)
                 }
             </div>)

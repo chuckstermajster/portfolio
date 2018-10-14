@@ -7,8 +7,8 @@ class Header extends React.Component {
             <header className="header-container">
                 <header>
                     <p className="header-title">Name</p>
-                    <p className="header-subtitle">Surname</p>
-                    {this.props.children}
+                    <p className="header-subtitle">Surname</p> 
+                    {this.props.children}                   
                 </header>                
             </header>
         )

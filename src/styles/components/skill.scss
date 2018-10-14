@@ -13,4 +13,21 @@
     text-align: center;
 }
 
+progress[value] {
+   appearance: none;
+   -webkit-appearance: none;
+    width: 200px;
+    height: 20px;
+  }
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;    
+  }
+  progress[value]::-webkit-progress-value {
+    background: $yellow;    
+  }
+  span {
+      color: $yellow;
+      margin-left: 7px;
+      
+  }
 

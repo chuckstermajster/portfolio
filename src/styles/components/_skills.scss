@@ -3,20 +3,32 @@
     cursor: pointer;
 }
 
+.skills-subtitle > p {
+    text-align: center;
+}
+
+.skills-title > h1 {
+    text-align: center;
+}
+
 .skills-container {
-    background: $blue;
-    margin: 0;
-    padding: 0;
+    background: $blue;   
+   
 }
 
 .skills-list {
     display: flex;
     background: $black;
+    order: 1;
 }
 
 .skill {
     border: 1px solid white;
     margin: 5px;
 }
+
+
+
+
 
 

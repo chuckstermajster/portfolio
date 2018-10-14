@@ -1,6 +1,6 @@
-.header-container {
+.header-container {   
     background: $yellow;
-    flex: 0 0 100%;         
+    flex: 0 0 100%;          
 }
 
 .header-title {
@@ -9,11 +9,13 @@
     font-size: $xl-size;
     font-weight: 800;
     color: $black;
+    text-align: center;
 }
 
 .header-subtitle{
     color: $black;
     font-size: $xl-size;
+    text-align: center;
 }
 
 .subtitle:hover {
