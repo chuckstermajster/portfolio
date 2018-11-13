@@ -1,8 +1,10 @@
 
-.sidebar {          
+#sidebar {
     background: $light-violet;
-    flex: 1;       
-}
+    margin: 0 !important;
+    padding: 0 !important;  
+}   
+
 
 .sidebar > h1, li {
     color: $yellow;

@@ -1,26 +1,24 @@
 import React from 'react';
 import Header from './header';
-import Sidebar from './sidebar';
 import Skills from './skills';
 import Content from './contents';
 import Footer from './footer';
 import Skill from './skill';
+import SidebarWrapper from './sidebarWrapper';
 
 
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <div className="wrapper">
+            <div className="wrapper">
                 <Header>
                     <Skills>
-                        <Skill/>
+                        <Skill />
                     </Skills>
-                </Header>                
-                    <Sidebar />
-                    <Content />              
-                <Footer/>
-                </div>
+                </Header>
+                <SidebarWrapper />
+                <Content />
+                <Footer />
             </div>
         )
     }
