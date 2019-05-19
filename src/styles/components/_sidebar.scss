@@ -1,12 +1,13 @@
 
 #sidebar {
     background: $light-violet;
-    margin: 0 !important;
-    padding: 0 !important;  
+    margin-top: 0;
+    padding: 0;
 }   
 
 
-.sidebar > h1, li {
-    color: $yellow;
+#sidebar > h1, li {
+    color: $yellow;  
+    margin: 0;
 }
 
